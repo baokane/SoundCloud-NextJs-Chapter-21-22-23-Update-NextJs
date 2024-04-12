@@ -28,7 +28,9 @@ export default function Home() {
         <input type="text" name="password" /><br /><br />
         {/* <input type="submit" value="Submit" /> */}
         <SubmitButton />
-        {JSON.stringify(state)}
+        <div>
+          {JSON.stringify(state)}
+        </div>
       </form>
 
     </div >
